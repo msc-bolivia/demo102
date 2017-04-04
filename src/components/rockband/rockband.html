@@ -1,0 +1,9 @@
+<ion-card>
+  <img [src]="rockband.img" alt="image">
+  <ion-card-content>
+    <p>{{ rockband.text }}</p>
+  </ion-card-content>
+  <button ion-button>send</button>
+  <button ion-button>sms</button>
+  <button ion-button color="danger" (click)="showText()">as</button>
+</ion-card>
